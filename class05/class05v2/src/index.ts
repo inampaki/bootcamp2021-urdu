@@ -14,5 +14,6 @@ task01.printAll();
 
 task01.addTodo("Dahi Lee Aooo");
 task01.addTodo("Tikka Masla Lee Aooo");
+task01.addTodo("Qurbani Ka Janwar Kharidna");
 task01.getTodoById(3);
 

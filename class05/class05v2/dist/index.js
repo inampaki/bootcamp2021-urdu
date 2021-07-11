@@ -1,6 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var message = "Hello World";
 console.log(message);
-import { TaskCollection } from "./TaskCollection";
-let task01 = new TaskCollection();
+const TaskCollection_1 = require("./TaskCollection");
+let task01 = new TaskCollection_1.TaskCollection();
 task01.addTodo("Aam Ley Aoo");
+task01.addTodo("Battery Terminal Ley Aoo");
 task01.printAll();
+task01.taskDone(2);
+task01.printAll();
+task01.addTodo("Dahi Lee Aooo");
+task01.addTodo("Tikka Masla Lee Aooo");
+task01.getTodoById(3);
