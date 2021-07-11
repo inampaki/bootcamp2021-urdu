@@ -8,4 +8,13 @@ export class TodoItem {
             console.log(`${this.id}\t${this.task} ${this.complete
                 ? "\t(complete)": ""}`);
         }
+
+    addTodo(task: string): number {
+            while (this.getTodoById(this.nextId)) {
+                this.nextId++;
+            }
+            this.todoItems.push(new TodoItem(this.nextId, task));
+            return this.nextId;
+        }
+        
     }

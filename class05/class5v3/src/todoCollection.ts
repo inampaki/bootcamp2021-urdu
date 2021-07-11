@@ -4,6 +4,7 @@ export class TodoCollection {
     constructor(public userName: string, public todoItems: TodoItem[] = []) {
         // no statements required
     }
+
     addTodo(task: string): number {
         while (this.getTodoById(this.nextId)) {
             this.nextId++;
@@ -11,6 +12,7 @@ export class TodoCollection {
         this.todoItems.push(new TodoItem(this.nextId, task));
         return this.nextId;
     }
+
 getTodoById(id: number) : TodoItem {
             return this.todoItems.find(item => item.id === id);
         }
