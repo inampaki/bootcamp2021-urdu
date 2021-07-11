@@ -12,4 +12,4 @@ console.log(`${collection.userName}'s Todo List`);
 let newId = collection.addTodo("Go for run");
 let todoItem = collection.getTodoById(newId);
 todoItem.printDetails();
-collection.addTodo(todoItem);
+//collection.addTodo(todoItem);
