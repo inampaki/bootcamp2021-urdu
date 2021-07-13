@@ -1,17 +1,11 @@
 export class TodoItem {
-    public id: number;
-    public task: string;
-    public complete: boolean=false;
-
-    // create constructor to initialize the class attributes
-    public constructor(myId: number, myTask: string, myStatus: boolean=false) {
-        this.id = myId;
-        this.task = myTask;
-        this.complete = myStatus;
+    // use TS features that allow class to be defined concisely
+    public constructor(public id: number, public task: string, public complete: boolean=false) {
+        // no statements required
     }
 
-    // create print method to display to-do item to the console
-    public printDetails(): void {
+    // TS by default assumes that all methods and properties are public, unless explicitly defined
+    printDetails(): void {
         console.log(`${this.id}\t${this.task}\t${this.complete
         ? "\t(complete)": ""}`);
     }
