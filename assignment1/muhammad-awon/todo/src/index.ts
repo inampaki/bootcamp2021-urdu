@@ -13,9 +13,5 @@ let collection: TodoCollection = new TodoCollection("Awon", thingsTodo);
 console.clear();
 console.log(`${collection.userName}'s Todo List`);
 
-// add new task
-let newId: number = collection.addTodo("Think of new project");
-let todoItem: TodoItem = collection.getTodoById(newId);
-
-// display todoItem
-todoItem.printDetails();
+// statement to call TodoItems method from todoCollection
+collection.getTodoItems(true).forEach(item=>item.printDetails());
