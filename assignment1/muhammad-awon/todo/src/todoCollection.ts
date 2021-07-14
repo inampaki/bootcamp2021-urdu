@@ -24,6 +24,11 @@ export class TodoCollection {
         return this.itemMap.get(id);
     }
 
+    // create method to provide access of TodoItem objects
+    getTodoItems(includeComplete: boolean): TodoItem[] {
+        return [...this.itemMap.values()].filter(item=>includeComplete || !item.complete);
+    }
+
     // create method to update task completion status
     markComplete(id: number, complete: boolean) {
         const todoItem = this.getTodoById(id);
