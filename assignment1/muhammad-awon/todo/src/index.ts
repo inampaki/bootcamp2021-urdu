@@ -13,5 +13,7 @@ let collection: TodoCollection = new TodoCollection("Awon", thingsTodo);
 console.clear();
 console.log(`${collection.userName}'s Todo List`);
 
-// statement to call TodoItems method from todoCollection
+// call removeComplete method from TodoCollection
+collection.removeComplete();
+// call TodoItems method from TodoCollection
 collection.getTodoItems(true).forEach(item=>item.printDetails());
