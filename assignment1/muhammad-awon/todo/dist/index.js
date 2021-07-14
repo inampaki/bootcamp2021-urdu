@@ -11,8 +11,7 @@ let thingsTodo = [
 let collection = new todoCollection_1.TodoCollection("Awon", thingsTodo);
 console.clear();
 console.log(`${collection.userName}'s Todo List`);
-// add new task
-let newId = collection.addTodo("Think of new project");
-let todoItem = collection.getTodoById(newId);
-// display todoItem
-todoItem.printDetails();
+// call removeComplete method from TodoCollection
+collection.removeComplete();
+// call TodoItems method from TodoCollection
+collection.getTodoItems(true).forEach(item => item.printDetails());
