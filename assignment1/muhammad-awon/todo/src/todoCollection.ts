@@ -1,4 +1,9 @@
 import { TodoItem } from "./todoItem";
+// statement for names and types combination (shape type)
+type ItemCounts = {
+    total: number,
+    incomplete: number
+}
 
 export class TodoCollection {
     // create instance to be used only in TodoCollection
@@ -44,5 +49,13 @@ export class TodoCollection {
                 this.itemMap.delete(item.id);
             }
         })
+    }
+
+    // create method for items descriptions
+    getItemCounts(): ItemCounts {
+        return {
+            total: this.itemMap.size,
+            incomplete: this.getTodoItems(false).length
+        };
     }
 }
