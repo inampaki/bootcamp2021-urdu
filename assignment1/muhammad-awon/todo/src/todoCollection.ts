@@ -8,8 +8,8 @@ type ItemCounts = {
 export class TodoCollection {
     // create instance to be used only in TodoCollection
     private nextId: number = 1;
-    // use JS Map function to store TodoItem objects using number as keys
-    private itemMap = new Map<number, TodoItem>();
+    // change control to protected so that subclasses can access the Map that contains TodoItem objects
+    protected itemMap = new Map<number, TodoItem>();
 
     constructor(public userName: string, todoItems: TodoItem[]=[]) {
         todoItems.forEach(item=>this.itemMap.set(item.id, item));
