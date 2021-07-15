@@ -4,13 +4,13 @@ import * as lowdb from "lowdb";
 import * as FileSync from "lowdb/adapters/FileSync";
 
 type schmaType = {
-    tasks: {id: number; task: string;, complete: boolean;}[]
+    tasks: {id: number; task: string; complete: boolean;}[]
 };
 
 export class JsonTodoCollection extends TodoCollection {
-    private database: lowdb.LowSync<schmaType>;
+    private database: lowdb.LowdbSync<schmaType>;
 
-    constructor(public userName: string, todoItem: TodoItem[]=[]) {
+    constructor(public userName: string, todoItems: TodoItem[]=[]) {
         super(userName, []);
         this.database = lowdb(new FileSync("Todos.json"));
         if (this.database.has("tasks").value()) {
