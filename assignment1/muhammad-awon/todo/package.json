@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.1.1"
+    "inquirer": "^8.1.1",
+    "lowdb": "^2.1.0"
   },
   "devDependencies": {
-    "@types/inquirer": "^7.3.3"
+    "@types/inquirer": "^7.3.3",
+    "@types/lowdb": "^1.0.11"
   }
 }
