@@ -1,24 +1,24 @@
-import { TodoItem } from "./todoItem";
+import { todoitems } from "./todoitems";
 
 export class ItemCollection{
     private nextId: number = 1;
 
-    public constructor(public Items: TodoItem[]=[]){
+    public constructor(public Items: todoitems[]=[]){
 
     }
 
     public addTodo(task:string):void{
-        let item:TodoItem = new TodoItem(this.nextId, task, false);
+        let item:todoitems = new todoitems(this.nextId, task, false);
         this.nextId ++;
         this.Items.push(item);
     }
 
     public printDetails():void {
-        this.Items.forEach((item:TodoItem)=>item.printDetails());
+        this.Items.forEach((item:todoitems)=>item.printdata());
     }
 
     public taskDone(taskId:number){
-        let item :TodoItem = this.Items.find((item)=>item.id === taskId);
+        let item :todoitems = this.Items.find((item)=>item.id === taskId);
         item.complete = true;
     }
 
