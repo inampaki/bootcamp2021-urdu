@@ -48,5 +48,6 @@
     let user=process.argv.splice(2)[0];
     console.log(user);
     ```
-11. transpile and run your code gain `tsc ./bin/index.ts && tsc ./lib/greeting.ts`    
-    `node ./bin/index.js`
+11. transpile and run your code gain 
+    * `tsc ./bin/index.ts && tsc ./lib/greeting.ts`  
+    * `node ./bin/index.js`
