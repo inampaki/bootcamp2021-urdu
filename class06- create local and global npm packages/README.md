@@ -9,7 +9,7 @@
     * new_folder/lib/
     * new_folder/bin/
 5. create file **new_folder/lib/greeting.ts**
-    `export function greeting(name:string):string {
+    ```export function greeting(name:string):string {
     return `Dear ${name}, How are you!`;
-    }`    
+    }```   
 
