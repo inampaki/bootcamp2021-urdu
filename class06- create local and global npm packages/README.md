@@ -9,7 +9,16 @@
     * new_folder/lib/
     * new_folder/bin/
 5. create file **new_folder/lib/greeting.ts**
+
     ```export function greeting(name:string):string {
     return 'Dear ${name}, How are you!';
     }```   
+6. create file **new_folder/bin/index.ts**
+```
+#!/usr/bin/env node
 
+import { greeting } from "../lib/greeting";
+
+let user = greeting("Muhammad Qasim");
+console.log(user);
+```
