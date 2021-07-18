@@ -1,14 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ItemCollection = void 0;
-const todoItem_1 = require("./todoItem");
+const TodoItem_1 = require("./TodoItem");
 class ItemCollection {
     constructor(Items = []) {
         this.Items = Items;
         this.nextId = 1;
     }
     addTodo(task) {
-        let item = new todoItem_1.TodoItem(this.nextId, task, false);
+        let item = new TodoItem_1.TodoItem(this.nextId, task, false);
         this.nextId++;
         this.Items.push(item);
     }
