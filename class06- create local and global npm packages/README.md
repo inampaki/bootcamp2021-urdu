@@ -5,11 +5,11 @@
 1. Create new_folder **qasim** (you should use your name)
 2. go to [https://www.npmjs.com/signup](https://www.npmjs.com/signup)
 
-    *   create your account
-    *   login with credential
+    *   Create your account
+    *   login with credentials
     *   You have to verify email address after receiving email from **support@npmjs.com**
 
-3. `npm init --scope=m.qasim077` (replace m.qasim077 to your-npmjs-user-name)    
+3. `npm init --scope=m.qasim077` (replace m.qasim077 with your-npmjs-user-name)    
     this command will be generated ** package.json ** file.
     ```
     {
@@ -148,4 +148,4 @@ npm i @m.qasim077/qasim
 Dear Inamul-haq, How are you!
 ``` 
 
-## Wow congratulation you have publish your first global npm package well-done!
+## Wow congratulations! You have published your first global npm package well-done!
