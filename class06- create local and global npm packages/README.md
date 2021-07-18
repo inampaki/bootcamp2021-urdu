@@ -31,3 +31,22 @@
     ```
     Dear Muhammad Qasim, How are you!
     ```
+## update this version with get name from user with CLI (terminal)
+
+9. install new package `npm i -save-dev @types/node' with this package we can get input from users in terminal or cli
+
+10. update file **./bin/index.ts**
+    ```
+    #!/usr/bin/env node
+
+    import { greeting } from "../lib/greeting";
+
+    // let user = greeting("Muhammad Qasim");
+
+    console.log(process.argv);
+
+    let user=process.argv.splice(2)[0];
+    console.log(user);
+    ```
+11. transpile and run your code gain `tsc ./bin/index.ts && tsc ./lib/greeting.ts`    
+    `node ./bin/index.js`
