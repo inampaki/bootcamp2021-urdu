@@ -144,11 +144,9 @@ npm i @m.qasim077/qasim
 
 ** Output **
 
-    ```
-   ['/usr/local/bin/node', '/usr/local/bin/greet', 'Inamul-haq', 'Muhammad-Qasim','Faheem' ] 
-
-    Dear Inamul-haq, How are you!
-    
-    ``` 
+```
+['/usr/local/bin/node', '/usr/local/bin/greet', 'Inamul-haq', 'Muhammad-Qasim','Faheem' ] 
+Dear Inamul-haq, How are you!
+``` 
 
 ## Wow congratulations! You have published your first global npm package well-done!
