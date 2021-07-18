@@ -19,11 +19,21 @@ class TodoCollection {
     getTodoById(id) {
         return this.itemMap.get(id);
     }
+    getTodoItems(includeComplete) {
+        return [...this.itemMap.values()].filter((item) => includeComplete || !item.complete);
+    }
     markComplete(id, complete) {
         const todoItem = this.getTodoById(id);
         if (todoItem) {
             todoItem.complete = complete;
         }
+    }
+    removeComplete() {
+        this.itemMap.forEach((item) => {
+            if (item.complete) {
+                this.itemMap.delete(item.id);
+            }
+        });
     }
 }
 exports.TodoCollection = TodoCollection;
