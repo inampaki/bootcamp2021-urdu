@@ -46,7 +46,8 @@
 npm init --yes
 npm i -save-dev @types/node
 npm i @m.qasim077/qasim
-``
+```
+
 ** npm i @m.qasim/qasim ** @username/packagename 
 ** npm i @m.qasim/qasim ** @username/folder_name
 
@@ -55,6 +56,7 @@ npm i @m.qasim077/qasim
     import {detail} from "@m.qasim077/qasim";
     detail();
     ```
+
 4. `tsc index.ts'
     ** output **
     `"Hello World, From bootcamp-urdu-sesseion team"`
