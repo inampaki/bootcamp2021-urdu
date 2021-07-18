@@ -57,7 +57,7 @@ npm i @m.qasim077/qasim
     detail();
     ```
 
-4. `tsc index.ts'
+4. `tsc index.ts`
     ** output **
     `"Hello World, From bootcamp-urdu-sesseion team"`
 
