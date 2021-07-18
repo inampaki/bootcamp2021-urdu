@@ -145,6 +145,7 @@ npm i @m.qasim077/qasim
 ** Output **
     ```
     '/usr/local/bin/node', '/usr/local/bin/greet', 'Inamul-haq', 'Muhammad-Qasim','Faheem' ] 
+    
     Dear Inamul-haq, How are you!
     ``` 
 
