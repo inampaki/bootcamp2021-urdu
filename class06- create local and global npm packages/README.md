@@ -50,4 +50,32 @@
     ```
 11. transpile and run your code gain 
     * `tsc ./bin/index.ts && tsc ./lib/greeting.ts`  
-    * `node ./bin/index.js`
+    * `node ./bin/index.js Inamul-haq Muhammad-Qasim Faheem`
+
+    ** Output **
+    ```
+     '/usr/local/bin/node', '/usr/local/bin/greet', 'Inamul-haq', 'Muhammad-Qasim','Faheem' ] 
+    Dear Inamul-haq, How are you!
+    ```    
+12. update ** package.json ** file
+    ```
+    {
+    ...
+    "main": "./lib/greeting.js",
+    "bin": {
+        "greet": "./bin/index.js"
+    },
+    ...
+
+    ```    
+13. `npm publish --access=public'
+14. `npm i <New_folder> -g` (<New_folder> this will be replace with your packageName or folder name for example: `npm i qasimcli`)
+15. code `greet Inamul-haq Muhammad-Qasim Faheem`
+
+** Output **
+```
+    '/usr/local/bin/node', '/usr/local/bin/greet', 'Inamul-haq', 'Muhammad-Qasim','Faheem' ] 
+Dear Inamul-haq, How are you!
+``` 
+
+## Wow congratulation you have publish your first global npm package well-done!
