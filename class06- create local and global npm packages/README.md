@@ -28,7 +28,7 @@
     }
     ```
 
-4. create new file **index.js**
+4. create new file **index.ts**
     ```
     export function details(){
         return console.log("Hello World, From bootcamp-urdu-sesseion team");
