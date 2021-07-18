@@ -16,11 +16,18 @@
     }
     ```   
 6. create file **new_folder/bin/index.ts**
-```
-#!/usr/bin/env node
+    ```
+    #!/usr/bin/env node
 
-import { greeting } from "../lib/greeting";
+    import { greeting } from "../lib/greeting";
 
-let user = greeting("Muhammad Qasim");
-console.log(user);
-```
+    let user = greeting("Muhammad Qasim");
+    console.log(user);
+    ```
+
+7. transpile your code with this command `tsc ./bin/index.ts && tsc ./lib/greeting.ts`    
+8. check your code or result `node ./bin/index.js` (this is javascript generated file)
+    ** output **
+    ```
+    Dear Muhammad Qasim, How are you!
+    ```
