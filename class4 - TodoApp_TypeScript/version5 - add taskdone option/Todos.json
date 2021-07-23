@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "complete": false,
+      "id": 1,
+      "task": "Buy Flowers"
+    },
+    {
+      "complete": false,
+      "id": 2,
+      "task": "Get Shoes"
+    },
+    {
+      "complete": false,
+      "id": 3,
+      "task": "Collect Tickets"
+    },
+    {
+      "complete": false,
+      "id": 5,
+      "task": "Shahzaib Ekram"
+    },
+    {
+      "complete": true,
+      "id": 6,
+      "task": "Typescript Todo"
+    }
+  ]
+}
