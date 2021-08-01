@@ -40,11 +40,11 @@ class boilerplateGen {
   }
 
   makeSrc(dir: string) {
-    fs.mkdirSync(path.join(__dirname, "src"));
+    fs.mkdirSync("src");
   }
 
   makeDist(dir: string) {
-    fs.mkdirSync(path.join(__dirname, "dist"));
+    fs.mkdirSync("dist");
   }
 
   makeIndexTS(dir: string) {
