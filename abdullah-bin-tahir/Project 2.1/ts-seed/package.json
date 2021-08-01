@@ -1,7 +1,7 @@
 {
   "name": "ts-seed",
   "description": "Bootcamp 2021 - Project 2.1: TypeScript Boilerplate Code Generator",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Abdullah Bin Tahir @shy-tan",
   "bin": {
     "ts-seed": "./bin/run"

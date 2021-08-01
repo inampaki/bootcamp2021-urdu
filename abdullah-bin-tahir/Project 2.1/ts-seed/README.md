@@ -19,7 +19,7 @@ $ npm install -g ts-seed
 $ ts-seed COMMAND
 running command...
 $ ts-seed (-v|--version|version)
-ts-seed/1.0.4 win32-x64 node-v16.4.2
+ts-seed/1.0.5 win32-x64 node-v16.4.2
 $ ts-seed --help [COMMAND]
 USAGE
   $ ts-seed COMMAND
@@ -50,7 +50,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/shy-tan/ts-seed/blob/v1.0.4/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/shy-tan/ts-seed/blob/v1.0.5/src/commands/hello.ts)_
 
 ## `ts-seed help [COMMAND]`
 
@@ -78,5 +78,5 @@ USAGE
   $ ts-seed name [DIRECTORY]
 ```
 
-_See code: [src/commands/name.ts](https://github.com/shy-tan/ts-seed/blob/v1.0.4/src/commands/name.ts)_
+_See code: [src/commands/name.ts](https://github.com/shy-tan/ts-seed/blob/v1.0.5/src/commands/name.ts)_
 <!-- commandsstop -->
