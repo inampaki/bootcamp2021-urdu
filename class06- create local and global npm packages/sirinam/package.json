@@ -1,0 +1,14 @@
+{
+  "name": "@m.qasim077/sirinam",
+  "version": "1.0.1",
+  "description": "Bootcamp 2021 Urdu session local scope package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Qasim",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.3.3"
+  }
+}
