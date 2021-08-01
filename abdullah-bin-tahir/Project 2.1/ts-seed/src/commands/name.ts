@@ -11,8 +11,8 @@ export default class Name extends Command {
     const { args } = this.parse(Name);
     const dir = args.directory;
     if (dir) {
-      boilerplate.makeProjectDir(dir);
-      boilerplate.makeTSConfig(dir);
+      boilerplate.makeProjectDir(dir); //
+      boilerplate.makeTSConfig(dir); //
       boilerplate.makePackageJSON(dir);
       boilerplate.makeSrc(dir);
       boilerplate.makeDist(dir);

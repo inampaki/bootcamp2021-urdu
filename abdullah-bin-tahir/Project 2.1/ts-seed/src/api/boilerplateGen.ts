@@ -5,11 +5,11 @@ class boilerplateGen {
   makeProjectDir(dir: string) {
     // make a directory in the location from where this cli is called
     fs.mkdirSync(dir);
+    process.chdir(dir); // one time thing
   }
 
   makeTSConfig(dir: string) {
     // fs.writeFile('<fileName>',<contenet>, callbackFunction)
-    process.chdir(dir);
     const content = `{
         "compilerOptions": {
         "target": "es2018",
@@ -23,24 +23,20 @@ class boilerplateGen {
   }
 
   makeSrc(dir: string) {
-    process.chdir(dir);
     fs.mkdirSync("/src");
   }
 
   makeDist(dir: string) {
-    process.chdir(dir);
     fs.mkdirSync("/dist");
   }
 
   makeIndexTS(dir: string) {
-    process.chdir(dir);
     process.chdir("./src");
     // create empty file for entry point
     fs.writeFileSync("index.ts", "");
   }
 
   makePackageJSON(dir: string) {
-    process.chdir(dir);
     const content = `{
         "name": "application-name",
         "version": "0.0.1",
