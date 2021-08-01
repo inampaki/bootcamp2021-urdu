@@ -13,7 +13,7 @@ export default class Name extends Command {
     if (dir) {
       boilerplate.makeProjectDir(dir); //
       boilerplate.makeTSConfig(dir); //
-      boilerplate.makePackageJSON(dir);
+      boilerplate.makePackageJSON(dir); //
       boilerplate.makeSrc(dir);
       boilerplate.makeDist(dir);
       boilerplate.makeIndexTS(dir);

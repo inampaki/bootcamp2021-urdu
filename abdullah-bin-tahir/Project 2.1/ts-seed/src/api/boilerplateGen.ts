@@ -23,15 +23,15 @@ class boilerplateGen {
   }
 
   makeSrc(dir: string) {
-    fs.mkdirSync("/src");
+    fs.mkdirSync(__dirname + "/src");
   }
 
   makeDist(dir: string) {
-    fs.mkdirSync("/dist");
+    fs.mkdirSync(__dirname + "/dist");
   }
 
   makeIndexTS(dir: string) {
-    process.chdir("./src");
+    process.chdir("src");
     // create empty file for entry point
     fs.writeFileSync("index.ts", "");
   }
