@@ -1,4 +1,5 @@
 import * as fs from "fs";
+import * as path from "path";
 import * as process from "process";
 
 class boilerplateGen {
@@ -22,20 +23,6 @@ class boilerplateGen {
     fs.writeFileSync("tsconfig.json", content);
   }
 
-  makeSrc(dir: string) {
-    fs.mkdirSync(__dirname + "/src");
-  }
-
-  makeDist(dir: string) {
-    fs.mkdirSync(__dirname + "/dist");
-  }
-
-  makeIndexTS(dir: string) {
-    process.chdir("src");
-    // create empty file for entry point
-    fs.writeFileSync("index.ts", "");
-  }
-
   makePackageJSON(dir: string) {
     const content = `{
         "name": "application-name",
@@ -50,6 +37,20 @@ class boilerplateGen {
         }
       }`;
     fs.writeFileSync("package.json", content);
+  }
+
+  makeSrc(dir: string) {
+    fs.mkdirSync(path.join(__dirname, "src"));
+  }
+
+  makeDist(dir: string) {
+    fs.mkdirSync(path.join(__dirname, "dist"));
+  }
+
+  makeIndexTS(dir: string) {
+    process.chdir("src");
+    // create empty file for entry point
+    fs.writeFileSync("index.ts", "");
   }
 }
 
