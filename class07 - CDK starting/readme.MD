@@ -30,7 +30,7 @@ Centralized vs Decentralized vs Distributed Systems
 https://www.zdnet.com/article/what-is-cloud-computing-everything-you-need-to-know-about-the-cloud/
 
 ## What Is Cloud Computing? Definition, Benefits, Types, and Trends
-~~https://www.toolbox.com/tech/cloud/articles/what-is-cloud-computing/
+~~https://www.toolbox.com/tech/cloud/articles/what-is-cloud-computing/~~
 
 AWS Named as a Cloud Leader for the 10th Consecutive Year in Gartner’s Infrastructure & Platform Services Magic Quadrant
 ~~https://aws.amazon.com/blogs/aws/aws-named-as-a-cloud-leader-for-the-10th-consecutive-year-in-gartners-infrastructure-platform-services-magic-quadrant/~~
