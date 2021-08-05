@@ -21,22 +21,22 @@ https://www.facebook.com/groups/deep.learning.edu
 ## Class 7 Reading Material: The Future of Computing
 
 Centralized vs Decentralized vs Distributed Systems
-https://www.geeksforgeeks.org/comparison-centralized-decentralized-and-distributed-systems/
+~~https://www.geeksforgeeks.org/comparison-centralized-decentralized-and-distributed-systems/~~
 
 ## Blockchain vs Cloud Computing
-https://www.upgrad.com/blog/blockchain-vs-cloud-computing/
+~~https://www.upgrad.com/blog/blockchain-vs-cloud-computing/~~
 
 ## What is cloud computing?
 https://www.zdnet.com/article/what-is-cloud-computing-everything-you-need-to-know-about-the-cloud/
 
 ## What Is Cloud Computing? Definition, Benefits, Types, and Trends
-https://www.toolbox.com/tech/cloud/articles/what-is-cloud-computing/
+~~https://www.toolbox.com/tech/cloud/articles/what-is-cloud-computing/
 
 AWS Named as a Cloud Leader for the 10th Consecutive Year in Gartner’s Infrastructure & Platform Services Magic Quadrant
-https://aws.amazon.com/blogs/aws/aws-named-as-a-cloud-leader-for-the-10th-consecutive-year-in-gartners-infrastructure-platform-services-magic-quadrant/
+~~https://aws.amazon.com/blogs/aws/aws-named-as-a-cloud-leader-for-the-10th-consecutive-year-in-gartners-infrastructure-platform-services-magic-quadrant/
 
 ## The Big 3 Cloud Providers: Who’ll emerge as #1?
-https://www.themsphub.com/the-big-3-cloud-providers-wholl-emerge-as-1/
+~~https://www.themsphub.com/the-big-3-cloud-providers-wholl-emerge-as-1/
 
 ## What is Serverless Computing
 https://www.onelogin.com/learn/serverless-computing
