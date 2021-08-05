@@ -33,10 +33,10 @@ https://www.zdnet.com/article/what-is-cloud-computing-everything-you-need-to-kno
 ~~https://www.toolbox.com/tech/cloud/articles/what-is-cloud-computing/
 
 AWS Named as a Cloud Leader for the 10th Consecutive Year in Gartner’s Infrastructure & Platform Services Magic Quadrant
-~~https://aws.amazon.com/blogs/aws/aws-named-as-a-cloud-leader-for-the-10th-consecutive-year-in-gartners-infrastructure-platform-services-magic-quadrant/
+~~https://aws.amazon.com/blogs/aws/aws-named-as-a-cloud-leader-for-the-10th-consecutive-year-in-gartners-infrastructure-platform-services-magic-quadrant/~~
 
 ## The Big 3 Cloud Providers: Who’ll emerge as #1?
-~~https://www.themsphub.com/the-big-3-cloud-providers-wholl-emerge-as-1/
+~~https://www.themsphub.com/the-big-3-cloud-providers-wholl-emerge-as-1/~~
 
 ## What is Serverless Computing
 https://www.onelogin.com/learn/serverless-computing
