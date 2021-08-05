@@ -39,10 +39,10 @@ AWS Named as a Cloud Leader for the 10th Consecutive Year in Gartner’s Infrast
 ~~https://www.themsphub.com/the-big-3-cloud-providers-wholl-emerge-as-1/~~
 
 ## What is Serverless Computing
-https://www.onelogin.com/learn/serverless-computing
+~~https://www.onelogin.com/learn/serverless-computing~~
 
 Promising trends in the serverless infrastructure market
-https://betanews.com/2021/07/07/trends-serverless-infrastructure/
+~~https://betanews.com/2021/07/07/trends-serverless-infrastructure/~~
 
 Infrastructure as Code
 https://searchitoperations.techtarget.com/definition/Infrastructure-as-Code-IAC
