@@ -45,10 +45,10 @@ Promising trends in the serverless infrastructure market
 ~~https://betanews.com/2021/07/07/trends-serverless-infrastructure/~~
 
 Infrastructure as Code
-https://searchitoperations.techtarget.com/definition/Infrastructure-as-Code-IAC
+~~https://searchitoperations.techtarget.com/definition/Infrastructure-as-Code-IAC~~
 
 CDK or Terraform?
-https://medium.com/swlh/cdk-or-terraform-88a464bedf9e
+~~https://medium.com/swlh/cdk-or-terraform-88a464bedf9e~~
 
 CDK for Terraform
 https://learn.hashicorp.com/tutorials/terraform/cdktf
