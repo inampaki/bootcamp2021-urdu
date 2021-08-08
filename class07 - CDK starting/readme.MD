@@ -57,10 +57,10 @@ Introducing CDK for Kubernetes
 https://aws.amazon.com/blogs/containers/introducing-cdk-for-kubernetes/
 
 What is AWS CDK, and why should your DevOps teams use it?
-https://www.nclouds.com/blog/what-is-aws-cdk-and-why-should-your-devops-teams-use-it/
+~~https://www.nclouds.com/blog/what-is-aws-cdk-and-why-should-your-devops-teams-use-it/~~
 
 What is the AWS CDK?
-https://docs.aws.amazon.com/cdk/latest/guide/home.html
+*https://docs.aws.amazon.com/cdk/latest/guide/home.html*
 
 
 # Must Create Free AWS Account
