@@ -27,5 +27,6 @@ Please remove ++ signup before save above code.
 
 6. `npm run build`
 7. `cdk synth`
-8. 
+8. optional `aws configure`
+   * create aws IAM user and policy rights
 
