@@ -29,4 +29,12 @@ Please remove ++ signup before save above code.
 7. `cdk synth`
 8. optional `aws configure`
    * create aws IAM user and policy rights
+9. cdk deploye
+   * output: 
+   ```
+   
+ ✅  Cdk1Stack
 
+Stack ARN:
+arn:aws:cloudformation:us-west-2:203856535362:stack/Cdk1Stack/6936f1a0-f851-11eb-bf43-02184d4f065d
+   ```
