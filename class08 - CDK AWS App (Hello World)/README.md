@@ -25,3 +25,6 @@ export class Cdk1Stack extends cdk.Stack {
 
 Please remove ++ signup before save above code.
 
+6. `npm run build`
+7. 
+
