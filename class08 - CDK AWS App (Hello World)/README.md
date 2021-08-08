@@ -1,5 +1,5 @@
 # AWS-Hello World
-(Official code)[https://github.com/panacloud-modern-global-apps/full-stack-serverless-cdk/tree/main/step00_hello_cdk]
+[Official code](https://github.com/panacloud-modern-global-apps/full-stack-serverless-cdk/tree/main/step00_hello_cdk)
 
 1. `npm install -g typescript`
 2. `npm install -g aws-cdk`
