@@ -1,0 +1,11 @@
+{
+  "name": "class01",
+  "version": "1.0.0",
+  "description": "This is first codding session",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suhaib Salman",
+  "license": "ISC"
+}

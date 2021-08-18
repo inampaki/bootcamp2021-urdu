@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const TaskCollection_1 = require("./TaskCollection");
+let taks01 = new TaskCollection_1.TaskCollection();
+taks01.addTodo("Buy Mangoes");
+taks01.addTodo('Buy battery');
+taks01.printAll();
+taks01.taskDone(2);
+taks01.printAll();
+taks01.addTodo("Buy lights");
+taks01.addTodo("Tikkah Massala");
+taks01.getTodoById(3);
+taks01.printAll();

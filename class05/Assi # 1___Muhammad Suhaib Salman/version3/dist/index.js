@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const TodoItem_1 = require("./TodoItem");
+console.clear();
+let item1 = new TodoItem_1.TodoItem(1, "Mango", true);
+let item2 = new TodoItem_1.TodoItem(2, "Grapes", true);
+let item3 = new TodoItem_1.TodoItem(3, "Oranges", false);
+item1.printDetails();
+item2.printDetails();
+item3.printDetails();
