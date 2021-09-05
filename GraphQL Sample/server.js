@@ -80,33 +80,33 @@ decipher.decrypted(process.env.DATABASE_URL).then(conx => {
         Mutation: {
             createToDo: async (parent, args) => {
                 try {
-                const { toDoInput } = args;
-                return await ToDo.create(toDoInput);
+                    const { toDoInput } = args;
+                    return await ToDo.create(toDoInput);
                 } catch (error) {
-                throw new Error(error);
+                    throw new Error(error);
                 }
             },
             updateToDo: async (parent, args) => {
                 try {
-                const { toDoId, toDoInput } = args;
-                return await ToDo.findOneAndUpdate(toDoId, toDoInput, { new: true });
+                    const { toDoId, toDoInput } = args;
+                    return await ToDo.findOneAndUpdate(toDoId, toDoInput, { new: true });
                 } catch (error) {
-                throw new Error(error);
+                    throw new Error(error);
                 }
             },
             deleteToDo: async (parent, args) => {
                 try {
-                const { toDoId } = args;
-                return await ToDo.findByIdAndDelete(toDoId);
+                    const { toDoId } = args;
+                    return await ToDo.findByIdAndDelete(toDoId);
                 } catch (error) {
-                throw new Error(error);
+                    throw new Error(error);
                 }
             },
             deleteToDos: async (parent, args) => {
                 try {
-                return await ToDo.remove();
+                    return await ToDo.remove();
                 } catch (error) {
-                throw new Error(error);
+                    throw new Error(error);
                 }
             },
         },

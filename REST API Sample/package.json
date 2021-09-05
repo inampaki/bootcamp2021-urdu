@@ -1,0 +1,19 @@
+{
+  "name": "rest-api-sample",
+  "version": "1.0.0",
+  "description": "REST API Sample ToDo API For Students Demonstration ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "inampaki, sirqasim",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.4"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
