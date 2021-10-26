@@ -27,6 +27,7 @@
     "@aws-cdk/aws-lambda-nodejs": "*",
     "@aws-cdk/core": "^1.124.0",
     "@types/mocha": "^9.0.0",
-    "source-map-support": "^0.5.16"
+    "source-map-support": "^0.5.16",
+    "uuid": "^8.3.2"
   }
 }
