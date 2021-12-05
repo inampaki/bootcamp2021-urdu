@@ -1,0 +1,23 @@
+openapi: 3.0.0
+info: 
+  title: FarmStall API
+  version: v1
+  description: "Web API Services"
+
+servers:
+- url: https://farmstall.ponelat.com/v1    
+
+paths:
+  /reviews:
+    get:
+      description: Get a bunch of review
+      parameters:
+      - name: maxRating
+        description: Fliter the review
+        in: query
+        schema:
+          type: number
+      responses:
+        200:
+          description: A bunch of review
+      

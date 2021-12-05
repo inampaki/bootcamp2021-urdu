@@ -1,0 +1,9 @@
+responses:
+200:
+description: A human description
+content:
+application/json:
+schema:
+type: object
+properties:
+# ...
