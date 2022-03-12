@@ -138,9 +138,10 @@ npm i @m.qasim077/qasim
     ...
 
     ```    
-13. `npm publish --access=public'
-14. `npm i <New_folder> -g` (<New_folder> this will be replace with your packageName or folder name for example: `npm i qasimcli`)
-15. code `greet Inamul-haq Muhammad-Qasim Faheem`
+13. `npm i -save-dev @types/node'
+14. `npm publish --access=public'
+15. `npm i <New_folder> -g` (<New_folder> this will be replace with your packageName or folder name for example: `npm i qasimcli`)
+16. code `greet Inamul-haq Muhammad-Qasim Faheem`
 
 ** Output **
 
